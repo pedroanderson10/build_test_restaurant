@@ -12,7 +12,8 @@ public class RestauranteApplicationTest {
         BDProduto BDProduto = new BDProduto();
         BDProduto.povoarArrayProdutos();
 
-        assertEquals(4, BDProduto.getTamanhoArray());
+//        assertEquals(4, BDProduto.getTamanhoArray());
+        assertEquals(8, BDProduto.getTamanhoArray());
     }
 
 }

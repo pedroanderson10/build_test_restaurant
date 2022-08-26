@@ -41,6 +41,7 @@ public class BDPedidoTest {
 
         arrayPedidos = bdPedido.getListaPedidos();
 
+//        assertEquals(10, arrayPedidos.get(0).obterValorTotalPedido());
         assertEquals(35, arrayPedidos.get(0).obterValorTotalPedido());
 
     }

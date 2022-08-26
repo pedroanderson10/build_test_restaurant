@@ -34,7 +34,8 @@ public class PedidoTest {
         pedidoTest.adicionarItemPedido(itemPedido1);
         pedidoTest.adicionarItemPedido(itemPedido2);
 
-        assertEquals(25, pedidoTest.obterValorTotalPedido());
+//        assertEquals(25, pedidoTest.obterValorTotalPedido());
+        assertEquals(35, pedidoTest.obterValorTotalPedido());
 
     }
 
