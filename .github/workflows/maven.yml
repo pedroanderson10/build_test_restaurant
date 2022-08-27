@@ -24,3 +24,17 @@ jobs:
         cache: maven
     - name: Build and Tests with Maven
       run: mvn -B package --file pom.xml
+      
+  shaker:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Shaker
+      uses: STAR-RG/shaker-action@main
+      with:
+        testing_tool: maven
+        no_stress_runs: 1
+        stress_runs: 3
+
