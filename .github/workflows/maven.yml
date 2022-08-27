@@ -34,7 +34,7 @@ jobs:
     - name: Shaker
       uses: STAR-RG/shaker-action@main
       with:
-        testing_tool: maven
-        no_stress_runs: 1
-        stress_runs: 3
+        tool: maven
+        runs: 3
+
 
