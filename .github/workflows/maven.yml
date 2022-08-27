@@ -3,11 +3,11 @@
 
 name: Build and Test (Java CI with Maven)
 
-on:
-  push:
-    branches: [ "develop"]
-  pull_request:
-    branches: [ "main"]
+on: [push]
+  #push: 
+    #branches: [ "develop"]
+  #pull_request:
+    #branches: [ "main"]
 
 jobs:
   build_and_test:
