@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: unitTests.model.ProdutoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in unitTests.model.ProdutoTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in unitTests.model.ProdutoTest
+descobrir_se_informacoes_do_produto_sao_retornados_corretamente  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <
+Codigo do Produtooo = 1
+Valor Unitario = 2.5
+Tipo do Produto = Sorvete Nestle> but was: <
+Codigo do Produto = 1
+Valor Unitario = 2.5
+Tipo do Produto = Sorvete Nestle>
+	at unitTests.model.ProdutoTest.descobrir_se_informacoes_do_produto_sao_retornados_corretamente(ProdutoTest.java:33)
+

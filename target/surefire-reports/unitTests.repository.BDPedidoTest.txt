@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: unitTests.repository.BDPedidoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in unitTests.repository.BDPedidoTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in unitTests.repository.BDPedidoTest
+descobrir_se_pedido_foi_adicionado_banco  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10.0> but was: <35.0>
+	at unitTests.repository.BDPedidoTest.descobrir_se_pedido_foi_adicionado_banco(BDPedidoTest.java:44)
+

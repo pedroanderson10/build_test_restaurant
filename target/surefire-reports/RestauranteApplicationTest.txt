@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: RestauranteApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in RestauranteApplicationTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in RestauranteApplicationTest
+descobrir_se_lista_produtos_esta_sendo_povoado  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <8> but was: <4>
+	at RestauranteApplicationTest.descobrir_se_lista_produtos_esta_sendo_povoado(RestauranteApplicationTest.java:18)
+

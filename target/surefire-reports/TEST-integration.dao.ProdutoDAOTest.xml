@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="integration.dao.ProdutoDAOTest" time="0.255" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="integration.dao.ProdutoDAOTest" time="0.356" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="F:\Pedro\UFC\UFC 2021.1\Verificação e Validação\AP2\ap2_restaurante\target\test-classes;F:\Pedro\UFC\UFC 2021.1\Verificação e Validação\AP2\ap2_restaurante\target\classes;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\pedro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\pedro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\pedro\.m2\repository\org\mockito\mockito-core\3.11.2\mockito-core-3.11.2.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy\1.11.3\byte-buddy-1.11.3.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.3\byte-buddy-agent-1.11.3.jar;C:\Users\pedro\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.class.path" value="F:\Pedro\UFC\UFC 2022.2\TCC\3_Atividade 01 para dia 31_08\1_Env_GitHub_Unit\build_test_restaurant\target\test-classes;F:\Pedro\UFC\UFC 2022.2\TCC\3_Atividade 01 para dia 31_08\1_Env_GitHub_Unit\build_test_restaurant\target\classes;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\pedro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\pedro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\pedro\.m2\repository\org\mockito\mockito-core\3.11.2\mockito-core-3.11.2.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy\1.11.3\byte-buddy-1.11.3.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.3\byte-buddy-agent-1.11.3.jar;C:\Users\pedro\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="E:\DEV\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\pedro\AppData\Local\Temp\surefire1877043789390395407\surefirebooter1057381078165030274.jar C:\Users\pedro\AppData\Local\Temp\surefire1877043789390395407 2022-08-26T19-15-25_170-jvmRun1 surefire1086730385626242409tmp surefire_08857459019580176326tmp"/>
-    <property name="surefire.test.class.path" value="F:\Pedro\UFC\UFC 2021.1\Verificação e Validação\AP2\ap2_restaurante\target\test-classes;F:\Pedro\UFC\UFC 2021.1\Verificação e Validação\AP2\ap2_restaurante\target\classes;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\pedro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\pedro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\pedro\.m2\repository\org\mockito\mockito-core\3.11.2\mockito-core-3.11.2.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy\1.11.3\byte-buddy-1.11.3.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.3\byte-buddy-agent-1.11.3.jar;C:\Users\pedro\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="sun.java.command" value="C:\Users\pedro\AppData\Local\Temp\surefire3778830357490904424\surefirebooter8157084436952528554.jar C:\Users\pedro\AppData\Local\Temp\surefire3778830357490904424 2022-08-28T18-10-37_802-jvmRun1 surefire424875504636123104tmp surefire_03770997614157398095tmp"/>
+    <property name="surefire.test.class.path" value="F:\Pedro\UFC\UFC 2022.2\TCC\3_Atividade 01 para dia 31_08\1_Env_GitHub_Unit\build_test_restaurant\target\test-classes;F:\Pedro\UFC\UFC 2022.2\TCC\3_Atividade 01 para dia 31_08\1_Env_GitHub_Unit\build_test_restaurant\target\classes;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\pedro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\pedro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pedro\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\pedro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\pedro\.m2\repository\org\mockito\mockito-core\3.11.2\mockito-core-3.11.2.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy\1.11.3\byte-buddy-1.11.3.jar;C:\Users\pedro\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.3\byte-buddy-agent-1.11.3.jar;C:\Users\pedro\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\pedro"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="E:\DEV\Java\jdk1.8.0_211\jre"/>
-    <property name="basedir" value="F:\Pedro\UFC\UFC 2021.1\Verificação e Validação\AP2\ap2_restaurante"/>
+    <property name="basedir" value="F:\Pedro\UFC\UFC 2022.2\TCC\3_Atividade 01 para dia 31_08\1_Env_GitHub_Unit\build_test_restaurant"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\pedro\AppData\Local\Temp\surefire1877043789390395407\surefirebooter1057381078165030274.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pedro\AppData\Local\Temp\surefire3778830357490904424\surefirebooter8157084436952528554.jar"/>
     <property name="sun.boot.class.path" value="E:\DEV\Java\jdk1.8.0_211\jre\lib\resources.jar;E:\DEV\Java\jdk1.8.0_211\jre\lib\rt.jar;E:\DEV\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;E:\DEV\Java\jdk1.8.0_211\jre\lib\jsse.jar;E:\DEV\Java\jdk1.8.0_211\jre\lib\jce.jar;E:\DEV\Java\jdk1.8.0_211\jre\lib\charsets.jar;E:\DEV\Java\jdk1.8.0_211\jre\lib\jfr.jar;E:\DEV\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\pedro\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_211"/>
-    <property name="user.dir" value="F:\Pedro\UFC\UFC 2021.1\Verificação e Validação\AP2\ap2_restaurante"/>
+    <property name="user.dir" value="F:\Pedro\UFC\UFC 2022.2\TCC\3_Atividade 01 para dia 31_08\1_Env_GitHub_Unit\build_test_restaurant"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,14 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="alterarProdutoDoBanco" classname="integration.dao.ProdutoDAOTest" time="0.241"/>
+  <testcase name="alterarProdutoDoBanco" classname="integration.dao.ProdutoDAOTest" time="0.338"/>
   <testcase name="deletarProdutoDoBanco" classname="integration.dao.ProdutoDAOTest" time="0"/>
-  <testcase name="naoAdicionarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0.003"/>
-  <testcase name="naoAlterarProdutoDoBanco" classname="integration.dao.ProdutoDAOTest" time="0.001"/>
+  <testcase name="naoAdicionarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0.004"/>
+  <testcase name="naoAlterarProdutoDoBanco" classname="integration.dao.ProdutoDAOTest" time="0"/>
   <testcase name="naoDeletarProdutoDoBanco" classname="integration.dao.ProdutoDAOTest" time="0.001"/>
   <testcase name="naoBuscarProdutoPorCodigo" classname="integration.dao.ProdutoDAOTest" time="0.001"/>
-  <testcase name="adicionarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0"/>
-  <testcase name="buscarProdutoPorCodigo" classname="integration.dao.ProdutoDAOTest" time="0.003"/>
+  <testcase name="adicionarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0.001"/>
+  <testcase name="buscarProdutoPorCodigo" classname="integration.dao.ProdutoDAOTest" time="0.004"/>
   <testcase name="buscarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0"/>
-  <testcase name="naoBuscarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0"/>
+  <testcase name="naoBuscarProdutosBanco" classname="integration.dao.ProdutoDAOTest" time="0.001"/>
 </testsuite>

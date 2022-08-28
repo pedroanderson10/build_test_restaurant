@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: unitTests.model.PedidoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in unitTests.model.PedidoTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in unitTests.model.PedidoTest
+verificar_adicao_varios_itensPedidos_no_pedido  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <35.0> but was: <25.0>
+	at unitTests.model.PedidoTest.verificar_adicao_varios_itensPedidos_no_pedido(PedidoTest.java:38)
+

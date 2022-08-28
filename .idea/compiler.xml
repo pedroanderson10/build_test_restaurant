@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ap1_restaurante" />
-        <module name="client_restaurant" />
         <module name="ap2_restaurante" />
+        <module name="client_restaurant" />
+        <module name="build_test_restaurant" />
       </profile>
     </annotationProcessing>
   </component>
