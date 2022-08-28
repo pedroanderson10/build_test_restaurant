@@ -25,16 +25,16 @@ jobs:
     - name: Build and Tests with Maven
       run: mvn -B package --file pom.xml
       
-  shaker:
+  #shaker:
   
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
     
-    steps:
-    - uses: actions/checkout@v2
-    - name: Shaker
-      uses: STAR-RG/shaker-action@main
-      with:
-        tool: maven
-        runs: 2
+    #steps:
+    #- uses: actions/checkout@v2
+    #- name: Shaker
+      #uses: STAR-RG/shaker-action@main
+      #with:
+        #tool: maven
+        #runs: 2
 
 
