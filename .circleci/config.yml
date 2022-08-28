@@ -26,7 +26,11 @@ jobs:
       - run:
           name: Test
           command: mvn test
-          mkdir -p ~/test-results/junit/
+      # Save test results!
+      - run:
+          name: Save test results
+          command: |
+            mkdir -p ~/test-results/junit/
             find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} ~/test-results/junit/ \;
           when: always
       - store_test_results:
