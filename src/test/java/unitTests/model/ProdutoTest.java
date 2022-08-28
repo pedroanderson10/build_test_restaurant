@@ -30,7 +30,7 @@ public class ProdutoTest {
     @DisplayName("Verifica se as informações do produto criado são retornados corretamente")
     public void descobrir_se_informacoes_do_produto_sao_retornados_corretamente(){
 
-        assertEquals("\nCodigo do Produtooo = 1" + "\nValor Unitario = 2.5" +
+        assertEquals("\nCodigo do Produto = 1" + "\nValor Unitario = 2.5" +
                 "\nTipo do Produto = Sorvete Nestle", sorveteTest.toString());
     }
 
