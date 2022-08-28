@@ -29,7 +29,8 @@ public class ItemPedidoTest {
 
         itemPedidoTest = new ItemPedido(baiao, 3);
 
-        assertEquals(30, itemPedidoTest.obterValorItem(baiao));
+        //assertEquals(30, itemPedidoTest.obterValorItem(baiao));
+        assertEquals(25, itemPedidoTest.obterValorItem(baiao));
     }
 
     @Test
