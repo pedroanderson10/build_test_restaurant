@@ -35,6 +35,6 @@ jobs:
       #uses: STAR-RG/shaker-action@main
       #with:
         #tool: maven
-        #runs: 0
+        #runs: 2
 
 

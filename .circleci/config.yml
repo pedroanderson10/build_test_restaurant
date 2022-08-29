@@ -26,8 +26,7 @@ jobs:
       - run:
           name: Test
           command: mvn test
-          
-    steps:
+      # Save test results!
       - run:
           name: Save test results
           command: |
@@ -36,6 +35,8 @@ jobs:
           when: always
       - store_test_results:
           path: ~/test-results
+          
+    
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
